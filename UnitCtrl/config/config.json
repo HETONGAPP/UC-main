@@ -1,0 +1,1742 @@
+{
+  "version": "1.0.0",
+  "alarm_modules": [
+    "PcsAlarms",
+    "StringAlarms",
+    "MBMUAlarms",
+    "TMSAlarms",
+    "FSSAlarms",
+    "UCAlarms"
+  ],
+  "warning_modules": [
+    "PcsWarnings",
+    "StringWarnings",
+    "SystemWarnings",
+    "MBMUWarnings",
+    "PowerLimitWarnings"
+  ],
+  "alarm_levels": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "input_alarms": [
+    {
+      "PcsAlarms": [
+        {
+          "alarmType": "EStopShtdn",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "The emergency-stop input was activated"
+        },
+        {
+          "alarmType": "ACOverCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC overcurrent"
+        },
+        {
+          "alarmType": "DCOverCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC Overcurrent"
+        },
+        {
+          "alarmType": "DCOverVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC Overvoltage"
+        },
+        {
+          "alarmType": "DevOverTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Power device overtemperature"
+        },
+        {
+          "alarmType": "InvOverTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inverter overtemperature"
+        },
+        {
+          "alarmType": "InvCmdMsg",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Loss of valid command message"
+        },
+        {
+          "alarmType": "DCUndVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC undervoltage"
+        },
+        {
+          "alarmType": "ACOverVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC overvoltage"
+        },
+        {
+          "alarmType": "IlglTrans",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Illegal state transition requested by master"
+        },
+        {
+          "alarmType": "InvEEHeader",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Invalid EEPROM header"
+        },
+        {
+          "alarmType": "InvEESection",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Invalid EEPROM section"
+        },
+        {
+          "alarmType": "CoolSysF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Cooling system failure"
+        },
+        {
+          "alarmType": "ACTimedOl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC timed overload trip"
+        },
+        {
+          "alarmType": "DCTimedOl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC timed overload trip"
+        },
+        {
+          "alarmType": "TimedCircCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Timed circulating current"
+        },
+        {
+          "alarmType": "CtrlBrdVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Control board voltage"
+        },
+        {
+          "alarmType": "PwrChnlImb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Power channel imbalance"
+        },
+        {
+          "alarmType": "CurrRise",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "rapid rise in output current"
+        },
+        {
+          "alarmType": "LCoolingFl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Low cooling flow"
+        },
+        {
+          "alarmType": "TmOvrld",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Thermal overload input"
+        },
+        {
+          "alarmType": "FanCkt",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Fan Circuit"
+        },
+        {
+          "alarmType": "PwrTout",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Power on reset state timeout"
+        },
+        {
+          "alarmType": "Cond",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Condensation fault"
+        },
+        {
+          "alarmType": "I2CComm",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inter integrated circuit communication error"
+        },
+        {
+          "alarmType": "ExtInh",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "External inhibit"
+        },
+        {
+          "alarmType": "GndFlt",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Ground Fault"
+        },
+        {
+          "alarmType": "FuseOrTVS",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Fuse or TVS fault"
+        },
+        {
+          "alarmType": "BasepltOvrTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Baseplate overtemperature"
+        },
+        {
+          "alarmType": "ACDcSw",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC Disconnect Switch"
+        },
+        {
+          "alarmType": "StartupTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "StartupTimeout"
+        },
+        {
+          "alarmType": "ShutDownTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "ShutDownTimeout"
+        }
+      ]
+    },
+    {
+      "StringAlarms": [
+        {
+          "alarmType": "CellXtrmTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Cell extreme temperature fault"
+        },
+        {
+          "alarmType": "CellXtrmVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Cell extreme voltage fault"
+        },
+        {
+          "alarmType": "MainPosRlyClsF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main positive relay close fail fault"
+        },
+        {
+          "alarmType": "MainNegRlyClsF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main negative relay close fail"
+        },
+        {
+          "alarmType": "MainPosRlyStk",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main positive relay stuck fault"
+        },
+        {
+          "alarmType": "MainNegRlyStk",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main negative relay close fail fault"
+        },
+        {
+          "alarmType": "AuxPowF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Auxiliary power fault"
+        },
+        {
+          "alarmType": "MCUSlfCkF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "MCU self check fault"
+        },
+        {
+          "alarmType": "InnCommF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inner communication fault(CAN)"
+        },
+        {
+          "alarmType": "CurrSenAb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Current sensor abnormal fault"
+        },
+        {
+          "alarmType": "SglCellVolSplAb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Single cell voltage sampling abnormal fault"
+        },
+        {
+          "alarmType": "ModTempSplAb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Module temperature sampling abnormal fault"
+        },
+        {
+          "alarmType": "HVolCktOpen",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "High voltage circuit open fault"
+        },
+        {
+          "alarmType": "SwitchF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Switch Fault"
+        },
+        {
+          "alarmType": "RackIsoSwF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Rack isolate switch fault"
+        },
+        {
+          "alarmType": "RackFuseF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Rack fuse fault"
+        },
+        {
+          "alarmType": "PreChgTout",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Pre charge timeout fault"
+        },
+        {
+          "alarmType": "XtrmOverCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Extreme over current fault"
+        },
+        {
+          "alarmType": "ModPowF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Module power fault"
+        },
+        {
+          "alarmType": "CurrSenPowF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Current sensor power fault"
+        },
+        {
+          "alarmType": "StartupTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "StartupTimeout"
+        },
+        {
+          "alarmType": "ShutDownTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "ShutDownTimeout"
+        }
+      ]
+    },
+    {
+      "MBMUAlarms": [
+        {
+          "alarmType": "InnerCommF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inner communication fault"
+        },
+        {
+          "alarmType": "EMSHbF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "EMS heartbeat fault"
+        }
+      ]
+    },
+    {
+      "TMSAlarms": [
+        {
+          "alarmType": "TMSCommF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "TMS communication fault"
+        },
+        {
+          "alarmType": "TMSMdConfl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "TMS mode conflict fault"
+        },
+        {
+          "alarmType": "TMSFaultLel",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "TMS fault level"
+        }
+      ]
+    },
+    {
+      "FSSAlarms": [
+        {
+          "alarmType": "FireFault",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Fire fault"
+        },
+        {
+          "alarmType": "AeroState",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Aerosol happened"
+        },
+        {
+          "alarmType": "AeroClsF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Aerosol abnormal opened"
+        },
+        {
+          "alarmType": "AeroOpenF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Aerosol abnormal closed"
+        }
+      ]
+    },
+    {
+      "UCAlarms": [
+        {
+          "alarmType": "BMSStupTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "BMS startup timeout"
+        },
+        {
+          "alarmType": "BMSShdnTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "BMS shutdown timeout"
+        },
+        {
+          "alarmType": "PCSStupTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "PCS startup timeout"
+        },
+        {
+          "alarmType": "PCSShdnTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "PCS shutdown timeout"
+        },
+        {
+          "alarmType": "I2GTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Island to Grid timeout"
+        },
+        {
+          "alarmType": "G2ITo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Grid to Island timeout"
+        }
+      ]
+    }
+  ],
+  "output_alarms": [
+    {
+      "PcsAlarms": [
+        {
+          "alarmType": "EStopShtdn",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "The emergency-stop input was activated"
+        },
+        {
+          "alarmType": "ACOverCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC overcurrent"
+        },
+        {
+          "alarmType": "DCOverCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC Overcurrent"
+        },
+        {
+          "alarmType": "DCOverVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC Overvoltage"
+        },
+        {
+          "alarmType": "DevOverTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Power device overtemperature"
+        },
+        {
+          "alarmType": "InvOverTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inverter overtemperature"
+        },
+        {
+          "alarmType": "InvCmdMsg",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Loss of valid command message"
+        },
+        {
+          "alarmType": "DCUndVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC undervoltage"
+        },
+        {
+          "alarmType": "ACOverVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC overvoltage"
+        },
+        {
+          "alarmType": "IlglTrans",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Illegal state transition requested by master"
+        },
+        {
+          "alarmType": "InvEEHeader",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Invalid EEPROM header"
+        },
+        {
+          "alarmType": "InvEESection",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Invalid EEPROM section"
+        },
+        {
+          "alarmType": "CoolSysF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Cooling system failure"
+        },
+        {
+          "alarmType": "ACTimedOl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC timed overload trip"
+        },
+        {
+          "alarmType": "DCTimedOl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "DC timed overload trip"
+        },
+        {
+          "alarmType": "TimedCircCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Timed circulating current"
+        },
+        {
+          "alarmType": "CtrlBrdVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Control board voltage"
+        },
+        {
+          "alarmType": "PwrChnlImb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Power channel imbalance"
+        },
+        {
+          "alarmType": "CurrRise",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "rapid rise in output current"
+        },
+        {
+          "alarmType": "LCoolingFl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Low cooling flow"
+        },
+        {
+          "alarmType": "TmOvrld",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Thermal overload input"
+        },
+        {
+          "alarmType": "FanCkt",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Fan Circuit"
+        },
+        {
+          "alarmType": "PwrTout",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Power on reset state timeout"
+        },
+        {
+          "alarmType": "Cond",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Condensation fault"
+        },
+        {
+          "alarmType": "I2CComm",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inter integrated circuit communication error"
+        },
+        {
+          "alarmType": "ExtInh",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "External inhibit"
+        },
+        {
+          "alarmType": "GndFlt",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Ground Fault"
+        },
+        {
+          "alarmType": "FuseOrTVS",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Fuse or TVS fault"
+        },
+        {
+          "alarmType": "BasepltOvrTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Baseplate overtemperature"
+        },
+        {
+          "alarmType": "ACDcSw",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "AC Disconnect Switch"
+        },
+        {
+          "alarmType": "StartupTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "StartupTimeout"
+        },
+        {
+          "alarmType": "ShutDownTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "ShutDownTimeout"
+        }
+      ]
+    },
+    {
+      "StringAlarms": [
+        {
+          "alarmType": "CellXtrmTemp",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Cell extreme temperature fault"
+        },
+        {
+          "alarmType": "CellXtrmVol",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Cell extreme voltage fault"
+        },
+        {
+          "alarmType": "MainPosRlyClsF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main positive relay close fail fault"
+        },
+        {
+          "alarmType": "MainNegRlyClsF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main negative relay close fail"
+        },
+        {
+          "alarmType": "MainPosRlyStk",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main positive relay stuck fault"
+        },
+        {
+          "alarmType": "MainNegRlyStk",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Main negative relay close fail fault"
+        },
+        {
+          "alarmType": "AuxPowF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Auxiliary power fault"
+        },
+        {
+          "alarmType": "MCUSlfCkF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "MCU self check fault"
+        },
+        {
+          "alarmType": "InnCommF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inner communication fault(CAN)"
+        },
+        {
+          "alarmType": "CurrSenAb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Current sensor abnormal fault"
+        },
+        {
+          "alarmType": "SglCellVolSplAb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Single cell voltage sampling abnormal fault"
+        },
+        {
+          "alarmType": "ModTempSplAb",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Module temperature sampling abnormal fault"
+        },
+        {
+          "alarmType": "HVolCktOpen",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "High voltage circuit open fault"
+        },
+        {
+          "alarmType": "SwitchF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Switch Fault"
+        },
+        {
+          "alarmType": "RackIsoSwF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Rack isolate switch fault"
+        },
+        {
+          "alarmType": "RackFuseF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Rack fuse fault"
+        },
+        {
+          "alarmType": "PreChgTout",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Pre charge timeout fault"
+        },
+        {
+          "alarmType": "XtrmOverCurr",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Extreme over current fault"
+        },
+        {
+          "alarmType": "ModPowF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Module power fault"
+        },
+        {
+          "alarmType": "CurrSenPowF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Current sensor power fault"
+        },
+        {
+          "alarmType": "StartupTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "StartupTimeout"
+        },
+        {
+          "alarmType": "ShutDownTimeout",
+          "alarmLevel": 2,
+          "active": "false",
+          "value": "0",
+          "des": "ShutDownTimeout"
+        }
+      ]
+    },
+    {
+      "MBMUAlarms": [
+        {
+          "alarmType": "InnerCommF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Inner communication fault"
+        },
+        {
+          "alarmType": "EMSHbF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "EMS heartbeat fault"
+        }
+      ]
+    },
+    {
+      "TMSAlarms": [
+        {
+          "alarmType": "TMSCommF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "TMS communication fault"
+        },
+        {
+          "alarmType": "TMSMdConfl",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "TMS mode conflict fault"
+        },
+        {
+          "alarmType": "TMSFaultLel",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "TMS fault level"
+        }
+      ]
+    },
+    {
+      "FSSAlarms": [
+        {
+          "alarmType": "FireFault",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Fire fault"
+        },
+        {
+          "alarmType": "AeroState",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Aerosol happened"
+        },
+        {
+          "alarmType": "AeroClsF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Aerosol abnormal opened"
+        },
+        {
+          "alarmType": "AeroOpenF",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Aerosol abnormal closed"
+        }
+      ]
+    },
+    {
+      "UCAlarms": [
+        {
+          "alarmType": "BMSStupTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "BMS startup timeout"
+        },
+        {
+          "alarmType": "BMSShdnTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "BMS shutdown timeout"
+        },
+        {
+          "alarmType": "PCSStupTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "PCS startup timeout"
+        },
+        {
+          "alarmType": "PCSShdnTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "PCS shutdown timeout"
+        },
+        {
+          "alarmType": "I2GTo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Island to Grid timeout"
+        },
+        {
+          "alarmType": "G2ITo",
+          "alarmLevel": 4,
+          "active": "false",
+          "value": "0",
+          "des": "Grid to Island timeout"
+        }
+      ]
+    }
+  ],
+  "input_warnings": [
+    {
+      "PcsWarnings": [
+        {
+          "warningType": "CANW",
+          "active": "false",
+          "des": "CAN Warning"
+        },
+        {
+          "warningType": "CANErrPasv",
+          "active": "false",
+          "des": "CAN error passive"
+        },
+        {
+          "warningType": "ThrmOvrld",
+          "active": "false",
+          "des": "Thermal overload input"
+        },
+        {
+          "warningType": "FanCkt",
+          "active": "false",
+          "des": "Fan circuit warning"
+        },
+        {
+          "warningType": "NVSaveAct",
+          "active": "false",
+          "des": "NV save active"
+        },
+        {
+          "warningType": "LNMis",
+          "active": "false",
+          "des": "Local network mismatch"
+        },
+        {
+          "warningType": "RNMis",
+          "active": "false",
+          "des": "Remote network mismatch"
+        },
+        {
+          "warningType": "Cond",
+          "active": "false",
+          "des": "Condensation warning"
+        },
+        {
+          "warningType": "I2C",
+          "active": "false",
+          "des": "I2C warning"
+        },
+        {
+          "warningType": "ExtInh",
+          "active": "false",
+          "des": "External Inhibit"
+        },
+        {
+          "warningType": "MaintReqd",
+          "active": "false",
+          "des": "Maintenance Required"
+        },
+        {
+          "warningType": "GndFault",
+          "active": "false",
+          "des": "Ground fault"
+        },
+        {
+          "warningType": "FuseOrTVS",
+          "active": "false",
+          "des": "Fuse or TVS warning"
+        },
+        {
+          "warningType": "ACDisConn",
+          "active": "false",
+          "des": "AC disconnect warning"
+        },
+        {
+          "warningType": "CommLoss",
+          "active": "false",
+          "des": "CommLoss"
+        },
+        {
+          "warningType": "Fire",
+          "active": "false",
+          "des": "Fire"
+        }
+      ]
+    },
+    {
+      "StringWarnings": [
+        {
+          "warningType": "SglCellOvrVol",
+          "active": "false",
+          "des": "Single cell over voltage warning"
+        },
+        {
+          "warningType": "SglCellUndVol",
+          "active": "false",
+          "des": "Single cell under voltage warning"
+        },
+        {
+          "warningType": "SglCellOvrTemp",
+          "active": "false",
+          "des": "Single cell over temperature warning"
+        },
+        {
+          "warningType": "SglCellUndTemp",
+          "active": "false",
+          "des": "Single cell under temperature warning"
+        },
+        {
+          "warningType": "SOCLow",
+          "active": "false",
+          "des": "SOC low warning"
+        },
+        {
+          "warningType": "ChgOvrCurr",
+          "active": "false",
+          "des": "Charge over current warning"
+        },
+        {
+          "warningType": "DisChgOvrCurr",
+          "active": "false",
+          "des": "discharge over current warning"
+        },
+        {
+          "warningType": "CellVolDiff",
+          "active": "false",
+          "des": "Cell voltage difference warning"
+        },
+        {
+          "warningType": "TempDiff",
+          "active": "false",
+          "des": "Temperature difference warning"
+        },
+        {
+          "warningType": "RackTotVol",
+          "active": "false",
+          "des": "Rack total voltage warning"
+        },
+        {
+          "warningType": "Balance",
+          "active": "false",
+          "des": "Balance warning"
+        },
+        {
+          "warningType": "ConCoilAb",
+          "active": "false",
+          "des": "Contactor coil abnormal warning"
+        },
+        {
+          "warningType": "SplSumVolDiff",
+          "active": "false",
+          "des": "Difference between sampling volatage and sum voltage"
+        },
+        {
+          "warningType": "MCANComm",
+          "active": "false",
+          "des": "MCAN communication warning"
+        },
+        {
+          "warningType": "RackSwitchState",
+          "active": "false",
+          "des": "Rack switch happened warning"
+        },
+        {
+          "warningType": "CtrlBoxOvrTemp",
+          "active": "false",
+          "des": "Over temperature fault in control box"
+        },
+        {
+          "warningType": "TMSStopBMS",
+          "active": "false",
+          "des": "TMS make BMS stop"
+        }
+      ]
+    },
+    {
+      "SystemWarnings": [
+        {
+          "alarmType": "SglCellOvrVol",
+          "active": "false",
+          "des": "Single cell overvoltage warning"
+        },
+        {
+          "alarmType": "SglCellUndVol",
+          "active": "false",
+          "des": "Single cell under voltage warning"
+        }
+      ]
+    },
+    {
+      "MBMUWarnings": [
+        {
+          "alarmType": "SglCellOvrVol",
+          "active": "false",
+          "des": "Single cell overvoltage warning"
+        },
+        {
+          "alarmType": "SglCellUndVol",
+          "active": "false",
+          "des": "Single cell under voltage warning"
+        },
+        {
+          "alarmType": "SglCellOvrTemp",
+          "active": "false",
+          "des": "Single cell over teemperature warning"
+        },
+        {
+          "alarmType": "SglCellUndTemp",
+          "active": "false",
+          "des": "Single cell under teemperature warning"
+        },
+        {
+          "alarmType": "SOCLow",
+          "active": "false",
+          "des": "SOC low warning"
+        },
+        {
+          "alarmType": "CurrOvrLmt",
+          "active": "false",
+          "des": "Current over limit warning"
+        },
+        {
+          "alarmType": "CellBigVolDiff",
+          "active": "false",
+          "des": "Warning for big voltage difference of single cell"
+        },
+        {
+          "alarmType": "BigTempDiff",
+          "active": "false",
+          "des": "Warning for big temperature difference within bank"
+        },
+        {
+          "alarmType": "SysOvrVol",
+          "active": "false",
+          "des": "System overvoltage warning"
+        },
+        {
+          "alarmType": "SysUndVol",
+          "active": "false",
+          "des": "System under voltage warning"
+        },
+        {
+          "alarmType": "CellXtrmTemp",
+          "active": "false",
+          "des": "Cell extreme temperature warning"
+        },
+        {
+          "alarmType": "CellXtrmVol",
+          "active": "false",
+          "des": "Cell extreme voltage warning"
+        }
+      ]
+    },
+    {
+      "PowerLimitWarnings": [
+        {
+          "warningType": "NoPowerFlowDirection",
+          "active": "false",
+          "des": "NoPowerFlowDirection"
+        },
+        {
+          "warningType": "NoSetpointP",
+          "active": "false",
+          "des": "NoSetpointP"
+        },
+        {
+          "warningType": "NoSetpointQ",
+          "active": "false",
+          "des": "NoSetpointQ"
+        },
+        {
+          "warningType": "NoVoltageFromPCS",
+          "active": "false",
+          "des": "NoVoltageFromPCS"
+        },
+        {
+          "warningType": "NoChgCurrentLimitFromBMS",
+          "active": "false",
+          "des": "NoChgCurrentLimitFromBMS"
+        },
+        {
+          "warningType": "NoDcgCurrentLimitFromBMS",
+          "active": "false",
+          "des": "NoDcgCurrentLimitFromBMS"
+        },
+        {
+          "warningType": "NoUserChgConfig",
+          "active": "false",
+          "des": "NoUserChgConfig"
+        },
+        {
+          "warningType": "NoUserDcgConfig",
+          "active": "false",
+          "des": "NoUserDcgConfig"
+        },
+        {
+          "warningType": "NoUserLimKVarInConfig",
+          "active": "false",
+          "des": "NoUserLimKVarInConfig"
+        },
+        {
+          "warningType": "NoUserLimKVarOutConfig",
+          "active": "false",
+          "des": "NoUserLimKVarOutConfig"
+        },
+        {
+          "warningType": "NoHighLimitConfig",
+          "active": "false",
+          "des": "NoHighLimitConfig"
+        },
+        {
+          "warningType": "NoLowLimitConfig",
+          "active": "false",
+          "des": "NoLowLimitConfig"
+        },
+        {
+          "warningType": "High SOC",
+          "active": "false",
+          "des": "High SOC"
+        },
+        {
+          "warningType": "Low SOC",
+          "active": "false",
+          "des": "Low SOC"
+        },
+        {
+          "warningType": "UpperVoltage",
+          "active": "false",
+          "des": "Upper voltage limit violation"
+        },
+        {
+          "warningType": "LowerVoltage",
+          "active": "false",
+          "des": "Lower voltage limit violation"
+        },
+        {
+          "warningType": "UpperFreq",
+          "active": "false",
+          "des": "Upper frequency limit violation"
+        },
+        {
+          "warningType": "LowerFreq",
+          "active": "false",
+          "des": "Lower frequency limit violation"
+        }
+      ]
+    }
+  ],
+  "output_warnings": [
+    {
+      "PcsWarnings": [
+        {
+          "warningType": "CANW",
+          "active": "false",
+          "des": "CAN Warning"
+        },
+        {
+          "warningType": "CANErrPasv",
+          "active": "false",
+          "des": "CAN error passive"
+        },
+        {
+          "warningType": "ThrmOvrld",
+          "active": "false",
+          "des": "Thermal overload input"
+        },
+        {
+          "warningType": "FanCkt",
+          "active": "false",
+          "des": "Fan circuit warning"
+        },
+        {
+          "warningType": "NVSaveAct",
+          "active": "false",
+          "des": "NV save active"
+        },
+        {
+          "warningType": "LNMis",
+          "active": "false",
+          "des": "Local network mismatch"
+        },
+        {
+          "warningType": "RNMis",
+          "active": "false",
+          "des": "Remote network mismatch"
+        },
+        {
+          "warningType": "Cond",
+          "active": "false",
+          "des": "Condensation warning"
+        },
+        {
+          "warningType": "I2C",
+          "active": "false",
+          "des": "I2C warning"
+        },
+        {
+          "warningType": "ExtInh",
+          "active": "false",
+          "des": "External Inhibit"
+        },
+        {
+          "warningType": "MaintReqd",
+          "active": "false",
+          "des": "Maintenance Required"
+        },
+        {
+          "warningType": "GndFault",
+          "active": "false",
+          "des": "Ground fault"
+        },
+        {
+          "warningType": "FuseOrTVS",
+          "active": "false",
+          "des": "Fuse or TVS warning"
+        },
+        {
+          "warningType": "ACDisConn",
+          "active": "false",
+          "des": "AC disconnect warning"
+        },
+        {
+          "warningType": "CommLoss",
+          "active": "false",
+          "des": "CommLoss"
+        },
+        {
+          "warningType": "Fire",
+          "active": "false",
+          "des": "Fire"
+        }
+      ]
+    },
+    {
+      "StringWarnings": [
+        {
+          "warningType": "SglCellOvrVol",
+          "active": "false",
+          "des": "Single cell over voltage warning"
+        },
+        {
+          "warningType": "SglCellUndVol",
+          "active": "false",
+          "des": "Single cell under voltage warning"
+        },
+        {
+          "warningType": "SglCellOvrTemp",
+          "active": "false",
+          "des": "Single cell over temperature warning"
+        },
+        {
+          "warningType": "SglCellUndTemp",
+          "active": "false",
+          "des": "Single cell under temperature warning"
+        },
+        {
+          "warningType": "SOCLow",
+          "active": "false",
+          "des": "SOC low warning"
+        },
+        {
+          "warningType": "ChgOvrCurr",
+          "active": "false",
+          "des": "Charge over current warning"
+        },
+        {
+          "warningType": "DisChgOvrCurr",
+          "active": "false",
+          "des": "discharge over current warning"
+        },
+        {
+          "warningType": "CellVolDiff",
+          "active": "false",
+          "des": "Cell voltage difference warning"
+        },
+        {
+          "warningType": "TempDiff",
+          "active": "false",
+          "des": "Temperature difference warning"
+        },
+        {
+          "warningType": "RackTotVol",
+          "active": "false",
+          "des": "Rack total voltage warning"
+        },
+        {
+          "warningType": "Balance",
+          "active": "false",
+          "des": "Balance warning"
+        },
+        {
+          "warningType": "ConCoilAb",
+          "active": "false",
+          "des": "Contactor coil abnormal warning"
+        },
+        {
+          "warningType": "SplSumVolDiff",
+          "active": "false",
+          "des": "Difference between sampling volatage and sum voltage"
+        },
+        {
+          "warningType": "MCANComm",
+          "active": "false",
+          "des": "MCAN communication warning"
+        },
+        {
+          "warningType": "RackSwitchState",
+          "active": "false",
+          "des": "Rack switch happened warning"
+        },
+        {
+          "warningType": "CtrlBoxOvrTemp",
+          "active": "false",
+          "des": "Over temperature fault in control box"
+        },
+        {
+          "warningType": "TMSStopBMS",
+          "active": "false",
+          "des": "TMS make BMS stop"
+        }
+      ]
+    },
+    {
+      "SystemWarnings": [
+        {
+          "alarmType": "SglCellOvrVol",
+          "active": "false",
+          "des": "Single cell overvoltage warning"
+        },
+        {
+          "alarmType": "SglCellUndVol",
+          "active": "false",
+          "des": "Single cell under voltage warning"
+        }
+      ]
+    },
+    {
+      "MBMUWarnings": [
+        {
+          "alarmType": "SglCellOvrVol",
+          "active": "false",
+          "des": "Single cell overvoltage warning"
+        },
+        {
+          "alarmType": "SglCellUndVol",
+          "active": "false",
+          "des": "Single cell under voltage warning"
+        },
+        {
+          "alarmType": "SglCellOvrTemp",
+          "active": "false",
+          "des": "Single cell over teemperature warning"
+        },
+        {
+          "alarmType": "SglCellUndTemp",
+          "active": "false",
+          "des": "Single cell under teemperature warning"
+        },
+        {
+          "alarmType": "SOCLow",
+          "active": "false",
+          "des": "SOC low warning"
+        },
+        {
+          "alarmType": "CurrOvrLmt",
+          "active": "false",
+          "des": "Current over limit warning"
+        },
+        {
+          "alarmType": "CellBigVolDiff",
+          "active": "false",
+          "des": "Warning for big voltage difference of single cell"
+        },
+        {
+          "alarmType": "BigTempDiff",
+          "active": "false",
+          "des": "Warning for big temperature difference within bank"
+        },
+        {
+          "alarmType": "SysOvrVol",
+          "active": "false",
+          "des": "System overvoltage warning"
+        },
+        {
+          "alarmType": "SysUndVol",
+          "active": "false",
+          "des": "System under voltage warning"
+        },
+        {
+          "alarmType": "CellXtrmTemp",
+          "active": "false",
+          "des": "Cell extreme temperature warning"
+        },
+        {
+          "alarmType": "CellXtrmVol",
+          "active": "false",
+          "des": "Cell extreme voltage warning"
+        }
+      ]
+    },
+    {
+      "PowerLimitWarnings": [
+        {
+          "warningType": "NoPowerFlowDirection",
+          "active": "false",
+          "des": "NoPowerFlowDirection"
+        },
+        {
+          "warningType": "NoSetpointP",
+          "active": "false",
+          "des": "NoSetpointP"
+        },
+        {
+          "warningType": "NoSetpointQ",
+          "active": "false",
+          "des": "NoSetpointQ"
+        },
+        {
+          "warningType": "NoVoltageFromPCS",
+          "active": "false",
+          "des": "NoVoltageFromPCS"
+        },
+        {
+          "warningType": "NoChgCurrentLimitFromBMS",
+          "active": "false",
+          "des": "NoChgCurrentLimitFromBMS"
+        },
+        {
+          "warningType": "NoDcgCurrentLimitFromBMS",
+          "active": "false",
+          "des": "NoDcgCurrentLimitFromBMS"
+        },
+        {
+          "warningType": "NoUserChgConfig",
+          "active": "false",
+          "des": "NoUserChgConfig"
+        },
+        {
+          "warningType": "NoUserDcgConfig",
+          "active": "false",
+          "des": "NoUserDcgConfig"
+        },
+        {
+          "warningType": "NoUserLimKVarInConfig",
+          "active": "false",
+          "des": "NoUserLimKVarInConfig"
+        },
+        {
+          "warningType": "NoUserLimKVarOutConfig",
+          "active": "false",
+          "des": "NoUserLimKVarOutConfig"
+        },
+        {
+          "warningType": "NoHighLimitConfig",
+          "active": "false",
+          "des": "NoHighLimitConfig"
+        },
+        {
+          "warningType": "NoLowLimitConfig",
+          "active": "false",
+          "des": "NoLowLimitConfig"
+        },
+        {
+          "warningType": "High SOC",
+          "active": "false",
+          "des": "High SOC"
+        },
+        {
+          "warningType": "Low SOC",
+          "active": "false",
+          "des": "Low SOC"
+        },
+        {
+          "warningType": "UpperVoltage",
+          "active": "false",
+          "des": "Upper voltage limit violation"
+        },
+        {
+          "warningType": "LowerVoltage",
+          "active": "false",
+          "des": "Lower voltage limit violation"
+        },
+        {
+          "warningType": "UpperFreq",
+          "active": "false",
+          "des": "Upper frequency limit violation"
+        },
+        {
+          "warningType": "LowerFreq",
+          "active": "false",
+          "des": "Lower frequency limit violation"
+        }
+      ]
+    }
+  ],
+  "process_error": [
+    "Init_Error",
+    "Register_Error",
+    "Key_Error"
+  ]
+}

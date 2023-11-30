@@ -1,0 +1,42 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Folders
+UnitCtrl/.vs/
+UnitCtrl/.vscode/
+UnitCtrl/intermediate/
+UnitCtrl/bin/AXCF*
+UnitCtrl/obj/
+UnitCtrl/out/
+UnitCtrl/packages/
+UnitCtrl/submodule/

@@ -1,0 +1,15 @@
+#pragma once
+
+#define nStringNum @nStringNum@
+#define nPCSNum    @nPCSNum@
+#define nContainerNum @nContainerNum@
+#define nTMSNum @nTMSNum@
+#define nFSSNum @nFSSNum@
+#define nMBMUNum @nMBMUNum@
+#define nBCPNum @nBCPNum@
+#define nCommLossBMSNum @nCommLossBMSNum@
+#define nCommLossPCSNum @nCommLossPCSNum@
+#define nVoltage 480
+#define nFrequency 60
+#define nDeltaVoltage @nDeltaVoltage@
+#define nDeltaFrequency @nDeltaFrequency@

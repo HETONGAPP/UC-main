@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug - all Targets|x86">
+      <Configuration>Debug - all Targets</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86">
+      <Configuration>Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug AXCF2152,2022.0.4 LTS (22.0.4.144)|x86">
+      <Configuration>Debug AXCF2152,2022.0.4 LTS (22.0.4.144)</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - all Targets|x86">
+      <Configuration>Release - all Targets</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86">
+      <Configuration>Release AXCF2152,2021.0.3 LTS (21.0.3.35554)</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86">
+      <Configuration>Release AXCF2152,2022.0.4 LTS (22.0.4.144)</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="submodule\UC-core\include\Controller\BCPCore.hpp" />
+    <ClInclude Include="include\project\UnitCtrl.h" />
+    <ClInclude Include="submodule\UC-core\include\Alarm\BaseTemplate.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Alarm\BaseWarning.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Alarm\HealthManager.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Alarm\BaseAlarm.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Alarm\ProcessError.h" />
+    <ClInclude Include="submodule\UC-core\include\Alarm\StructAlarm.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\BMSCore.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\ComLoss.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\FSSCore.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - all Targets|x86'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\Controller\InputsAdapter.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\MBMUCore.hpp" />
+    <ClInclude Include="include\Controller\OutputsAdapter.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\PCSCore.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\PowerLimitsManager.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\TMSCore.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Controller\UCCore.hpp" />
+    <ClInclude Include="include\Objects\busBMS.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\busBMSStd.hpp" />
+    <ClInclude Include="include\Objects\busConfig.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\busConfigStd.hpp" />
+    <ClInclude Include="include\Objects\busGenOper.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\busGenOperStd.hpp" />
+    <ClInclude Include="include\Objects\busMBMU.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\busMBMUStd.hpp" />
+    <ClInclude Include="include\Objects\busPCS.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\busPCSStd.hpp" />
+    <ClInclude Include="include\Objects\busPLimitManager.hpp" />
+    <ClInclude Include="include\Objects\busUC.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\busUCStd.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\EnumBMS.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\EnumPCS.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Objects\EnumUC.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Program\UnitCtrlComponent.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Program\UnitCtrlModule.hpp" />
+    <ClInclude Include="submodule\UC-core\include\Program\UnitCtrlProgram.hpp" />
+    <ClInclude Include="submodule\UC-tool\include\Config.hpp" />
+    <ClInclude Include="submodule\UC-tool\include\Singleton.h" />
+    <ClInclude Include="submodule\UC-tool\include\TimeUtil.hpp" />
+    <ClInclude Include="clang\UndefClang.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="submodule\UC-core\src\Controller\BCPCore.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Alarm\BaseWarning.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Alarm\HealthManager.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Alarm\BaseAlarm.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Alarm\ProcessError.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\BMSCore.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\ComLoss.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\FSSCore.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug - all Targets|x86'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Controller\InputsAdapter.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\MBMUCore.cpp" />
+    <ClCompile Include="src\Controller\OutputsAdapter.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\PCSCore.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\PowerLimitsManager.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\TMSCore.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Controller\UCCore.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Program\UnitCtrlComponent.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Program\UnitCtrlModule.cpp" />
+    <ClCompile Include="submodule\UC-core\src\Program\UnitCtrlProgram.cpp" />
+    <ClCompile Include="submodule\UC-tool\src\Config.cpp" />
+    <ClCompile Include="submodule\UC-tool\src\TimeUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+    <Text Include="external\ADD_DEPENDENT_LIBRARIES_HERE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\config.json" />
+    <None Include="include\project\UnitCtrl.h.in" />
+    <None Include="plcnext.proj" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{a7df73c6-9c5d-40ab-b19d-67ce06243319}</ProjectGuid>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - all Targets|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WSL_1_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WSL_1_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>WSL_1_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - all Targets|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WSL_1_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WSL_1_0</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>WSL_1_0</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <ForcedIncludeFiles>$(ProjectDir)clang\UndefClang.hpp</ForcedIncludeFiles>
+      <CLanguageStandard />
+      <CppLanguageStandard />
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug - all Targets|x86'">$(PLCnCLIMacros)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'">$(PLCnCLIMacros)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'">$(PLCnCLIMacros)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release - all Targets|x86'">$(PLCnCLIMacros)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'">$(PLCnCLIMacros)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'">$(PLCnCLIMacros)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug - all Targets|x86'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release - all Targets|x86'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <PropertyGroup>
+    <PLCnCLIProjectType>project</PLCnCLIProjectType>
+    <SourceFolders>$(ProjectDir)submodule\UC-core\include\Program;$(ProjectDir)submodule\UC-core\src\Program;$(SourceFolders)</SourceFolders>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - all Targets|x86'">
+    <IncludePath>$(PLCnCLIIncludes)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'">
+    <IncludePath>$(PLCnCLIIncludes)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'">
+    <IncludePath>$(PLCnCLIIncludes)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - all Targets|x86'">
+    <IncludePath>$(PLCnCLIIncludes)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86'">
+    <IncludePath>$(PLCnCLIIncludes)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86'">
+    <IncludePath>$(PLCnCLIIncludes)</IncludePath>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets" />
+  <Import Project="$(MSBuildExtensionsPath)/PHOENIX CONTACT/PLCnCLI.targets" />
+</Project>

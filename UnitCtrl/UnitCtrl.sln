@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitCtrl", "UnitCtrl.vcxproj", "{A7DF73C6-9C5D-40AB-B19D-67CE06243319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - all Targets|x64 = Debug - all Targets|x64
+		Debug - all Targets|x86 = Debug - all Targets|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Project-specific|x64 = Project-specific|x64
+		Project-specific|x86 = Project-specific|x86
+		Release - all Targets|x64 = Release - all Targets|x64
+		Release - all Targets|x86 = Release - all Targets|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug - all Targets|x64.ActiveCfg = Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug - all Targets|x86.ActiveCfg = Debug - all Targets|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug - all Targets|x86.Build.0 = Debug - all Targets|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug - all Targets|x86.Deploy.0 = Debug - all Targets|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug|x64.ActiveCfg = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug|x64.Build.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug|x64.Deploy.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug|x86.ActiveCfg = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug|x86.Build.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Debug|x86.Deploy.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Project-specific|x64.ActiveCfg = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Project-specific|x64.Build.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Project-specific|x64.Deploy.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Project-specific|x86.ActiveCfg = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Project-specific|x86.Build.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Project-specific|x86.Deploy.0 = Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release - all Targets|x64.ActiveCfg = Release - all Targets|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release - all Targets|x86.ActiveCfg = Release - all Targets|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release - all Targets|x86.Build.0 = Release - all Targets|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release - all Targets|x86.Deploy.0 = Release - all Targets|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release|x64.ActiveCfg = Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release|x64.Build.0 = Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release|x64.Deploy.0 = Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release|x86.ActiveCfg = Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release|x86.Build.0 = Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86
+		{A7DF73C6-9C5D-40AB-B19D-67CE06243319}.Release|x86.Deploy.0 = Release AXCF2152,2022.0.4 LTS (22.0.4.144)|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28F005FE-3DF2-48E6-BF1B-78351906B4EA}
+	EndGlobalSection
+EndGlobal

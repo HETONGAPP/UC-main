@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Get the current operating system
+os=$(uname)
+
+MAIN_REPO_DIR=$(git rev-parse --show-toplevel)
+
+# Check the operating system and perform actions accordingly
+if [ "$os" = "Linux" ]; then
+    cd "$MAIN_REPO_DIR/" && chmod +x Update-Submodules.sh && ./Update-Submodules.sh
+elif [[ "$os" == MINGW* ]]; then
+    cd "$MAIN_REPO_DIR/" && exec ./Update-Submodules.bat
+else
+    echo "Unsupported operating system: $os"
+    exit 1
+fi
+exit 0

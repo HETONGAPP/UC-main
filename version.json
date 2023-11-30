@@ -1,0 +1,12 @@
+{
+    "repositories": [
+        {
+            "name": "UC-core",
+            "version": "v1.0.0"
+        },
+        {
+            "name": "UC-tool",
+            "version": "v1.0.0"
+        }
+    ]
+}
